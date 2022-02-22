@@ -3,11 +3,10 @@
 body {
     margin-top: 105px;
     font-family: Roboto, sans-serif;
-}
-
-body {
     background-color: #D8D2CB;
 }
+
+
 
 .navbar {
     box-shadow: 2px 2px 5px #398AB9;
@@ -39,6 +38,7 @@ body {
 
 /* newsletter */
 
+
 #newsletter .container {
     background-color: #D8D2CB ;
 }
@@ -47,6 +47,12 @@ body {
     text-align: center;
     letter-spacing: .2rem;
     background-color: #4398aa;
+}
+
+.info-header{
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
 }
 
 
@@ -78,4 +84,5 @@ body {
     background-color: #398AB9;
     color: #fff;
 }
+
 
