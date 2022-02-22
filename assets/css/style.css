@@ -81,6 +81,12 @@ background-color: #1c658c;
 color: #fff;
 }
 
+/* footer */
+
+.copyright {
+    color: #fff;
+}
+
 
 @media (max-width: 768px) {
     #showcase {
