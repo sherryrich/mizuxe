@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Lato:wght@300&family=Montserrat:wght@300;700&family=Roboto+Mono:ital,wght@1,700&family=Roboto:wght@500&family=Sacramento&family=Ubuntu:wght@700&display=swap');
+
 body {
     margin-top: 105px;
+    font-family: Roboto, sans-serif;
 }
 
 body {
@@ -17,3 +20,62 @@ body {
     font-size: 1.4rem;
     padding-right: 1.4rem;
 }
+
+#showcase {
+    background: url('../images/mountains.jpg');
+    min-height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+
+.showcase-text, .lead {
+    color: #1C658C;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+}
+
+/* newsletter */
+
+#newsletter .container {
+    background-color: #D8D2CB ;
+}
+
+.btn-subscribe {
+    text-align: center;
+    letter-spacing: .2rem;
+    background-color: #4398aa;
+}
+
+
+@media (max-width: 768px) {
+    #showcase {
+        min-height: 500px;
+    }
+      
+    .showcase-text {
+        font-size: 2rem;
+    
+    }
+
+    .lead {
+        font-size: 1.5rem;
+    
+    }
+    .mb-resp{
+        margin-bottom: 1rem;
+    }
+
+    .btn-subscribe {
+        text-align: left;
+    }
+    
+}
+
+.bg-card {
+    background-color: #398AB9;
+    color: #fff;
+}
+
