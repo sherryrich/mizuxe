@@ -56,6 +56,32 @@ body {
 }
 
 
+.bg-card {
+    background-color: #398AB9;
+    color: #fff;
+}
+
+#about-heading  {
+    color: #1C658C !important;
+    font-size: 1.5rem;;
+}
+
+/* authors */
+
+#authors img {
+    margin-top: -50px;
+}
+
+.card:hover {
+    background-color: aqua;
+}
+
+.card:hover {
+background-color: #1c658c;
+color: #fff;
+}
+
+
 @media (max-width: 768px) {
     #showcase {
         min-height: 500px;
@@ -79,10 +105,4 @@ body {
     }
     
 }
-
-.bg-card {
-    background-color: #398AB9;
-    color: #fff;
-}
-
 
